@@ -1,6 +1,7 @@
 {
-  "name": "my-v0-project",
-  "version": "0.1.0",
+  "name": "muhammad-uzair-portfolio",
+  "version": "1.0.0",
+  "description": "Modern, production-ready portfolio website built with Next.js 15, TypeScript, and Tailwind CSS. Features comprehensive SEO optimization, performance monitoring, and enterprise-level development practices.",
   "private": true,
   "scripts": {
     "build": "next build",
