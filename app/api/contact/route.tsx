@@ -1,5 +1,6 @@
 import { type NextRequest, NextResponse } from "next/server"
 import { z } from "zod"
+import { createEmailService } from "@/lib/email-service"
 
 // Validation schema
 const contactSchema = z.object({
@@ -116,11 +117,9 @@ export async function POST(request: NextRequest) {
       `,
     }
 
-    // Simulate email sending (replace with actual email service)
-    console.log("Email would be sent:", emailData)
-
-    // If using SendGrid, Resend, or similar:
-    // await emailService.send(emailData)
+    // Send email using configured service
+    const emailService = createEmailService()
+    await emailService.send(emailData)
 
     return NextResponse.json(
       {

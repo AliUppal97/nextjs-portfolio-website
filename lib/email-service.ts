@@ -30,7 +30,7 @@ class SendGridService implements EmailService {
   }
 }
 
-// Example implementation for Resend
+// Implementation for Resend
 class ResendService implements EmailService {
   private apiKey: string
 
@@ -39,11 +39,33 @@ class ResendService implements EmailService {
   }
 
   async send(data: EmailData): Promise<void> {
-    // Implementation would use Resend API
-    // const { Resend } = require('resend')
-    // const resend = new Resend(this.apiKey)
-    // await resend.emails.send(data)
-    console.log("Resend email would be sent:", data)
+    try {
+      const response = await fetch('https://api.resend.com/emails', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${this.apiKey}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          from: 'Portfolio Contact Form <noreply@yourdomain.com>',
+          to: [data.to],
+          subject: data.subject,
+          html: data.html,
+          reply_to: data.from,
+        }),
+      })
+
+      if (!response.ok) {
+        const error = await response.text()
+        throw new Error(`Resend API error: ${error}`)
+      }
+
+      const result = await response.json()
+      console.log('✅ Email sent successfully:', result.id)
+    } catch (error) {
+      console.error('❌ Failed to send email:', error)
+      throw error
+    }
   }
 }
 
