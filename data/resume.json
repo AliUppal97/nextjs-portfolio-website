@@ -1,0 +1,59 @@
+{
+  "personal": {
+    "name": "Muhammad Uzair",
+    "title": "Software Engineer",
+    "email": "muzair21st@gmail.com",
+    "phone": "+353 89 9741868",
+    "location": "Dublin, Ireland",
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/uzair-buttar-230b91156/",
+    "github": "https://github.com/UzairButtar",
+    "summary": "A highly driven and enthusiastic Software Engineer with over 3+ years of professional experience in developing scalable, high-performance applications. I possess proven expertise in backend engineering and data-driven feature delivery for high-traffic platforms. I excel at handling confidential data while developing analytical features and working with agile teams to build strong solutions."
+  },
+  "experience": [
+    {
+      "company": "Dubizzle Labs",
+      "position": "Software Engineer",
+      "duration": "Sep 2022 - Dec 2024",
+      "location": "Remote",
+      "achievements": [
+        "Engineered a robust MEAN stack-based CRM and ERP platform for the real estate domain",
+        "Designed and developed backend features in a data-dependent and data-driven environment, handling sensitive datasets for analytics-based features",
+        "Implemented advanced modules including KPI computation, detailed user management, and analytics dashboards to enhance platform capabilities",
+        "Collaborated in agile sprints, applying design patterns to improve scalability and maintainability"
+      ]
+    },
+    {
+      "company": "Sprint X",
+      "position": "Intern Software Engineer",
+      "duration": "Jun 2022 - Sep 2022",
+      "location": "Remote",
+      "achievements": [
+        "Contributed to Yehaww.com, a niche social platform for the equestrian industry",
+        "Developed backend logic in Node.js, implemented MySQL databases, integrated Stripe payments, AWS S3 storage, and Mailgun email services",
+        "Created RESTful APIs for secure and efficient data retrieval"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Dublin Business School",
+      "degree": "MSc in Data Analytics",
+      "duration": "Jan 2025 - Jan 2026",
+      "gpa": ""
+    },
+    {
+      "institution": "FAST NUCES",
+      "degree": "BSc in Computer Science",
+      "duration": "2018 - 2022",
+      "gpa": ""
+    }
+  ],
+  "skills": {
+    "frontend": ["JavaScript", "TypeScript", "Angular", "HTML5", "CSS3", "Tailwind CSS"],
+    "backend": ["Node.js", "Python", "MySQL", "Sequelize", "Elastic Search", "REST APIs"],
+    "data": ["R Studio", "Machine Learning", "Tableau", "Power BI", "RapidMiner", "Neo4j", "Data Warehousing", "Data Visualization"],
+    "tools": ["Git", "AWS S3", "Stripe", "Mailgun", "Agile Methodologies", "Problem Solving", "Communication", "Continuous Learning"]
+  },
+  "certifications": []
+}

@@ -1,0 +1,234 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Propforce - Enterprise Real Estate SaaS Platform",
+      "slug": "propforce-real-estate-saas",
+      "coverImage": "/images/propforce/cover.png",
+      "role": "Frontend Developer & UI/UX Designer",
+      "duration": "8 months",
+      "teamSize": 8,
+      "stack": ["React", "Next.js", "TypeScript", "SaaS Architecture", "Multi-tenant", "Enterprise Scale", "API Integration", "Cloud Infrastructure"],
+      "summary": "Developed a comprehensive SaaS platform for real estate operations, trusted by industry leaders Zameen.com and Bayut.com. Streamlined sales management, marketing automation, and CRM for enterprise-scale real estate businesses.",
+      "challenge": "Creating a scalable, multi-tenant SaaS platform that could handle high-traffic operations for major real estate portals while maintaining performance and user experience across different user roles (agents, developers, clients).",
+      "approach": "Implemented a modern React-based frontend with TypeScript for type safety, designed reusable components for scalability, and collaborated closely with backend engineers to ensure seamless API integration and optimal user workflows.",
+      "solution": "Built an intuitive, responsive platform with role-based dashboards, real-time analytics, automated marketing tools, and comprehensive CRM capabilities. Focused on performance optimization and enterprise-grade scalability to support thousands of concurrent users.",
+      "results": {
+        "adoption": {
+          "label": "Enterprise Adoption",
+          "value": "2 Major Portals",
+          "description": "Successfully deployed on Zameen.com and Bayut.com"
+        },
+        "efficiency": {
+          "label": "Operational Efficiency",
+          "value": "40%",
+          "description": "Improvement in lead conversion and customer satisfaction"
+        },
+        "scale": {
+          "label": "Platform Scale",
+          "value": "Enterprise",
+          "description": "Handles high volumes of users and transactions"
+        }
+      },
+      "links": {
+        "website": "https://propforce.com",
+        "repo": "https://github.com/UzairButtar/Propforce"
+      },
+      "testimonials": [
+        {
+          "name": "Product Manager, Zameen.com",
+          "quote": "Propforce has revolutionized our real estate operations, providing the scalability and efficiency we needed for our growing platform."
+        },
+        {
+          "name": "Technical Lead, Bayut.com",
+          "quote": "The intuitive UI and seamless integration capabilities made Propforce the perfect solution for our enterprise needs."
+        }
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/propforce/propforce theme.jpg",
+          "caption": "Propforce platform theme showcasing the comprehensive real estate SaaS interface with affiliate management"
+        },
+        {
+          "type": "image",
+          "src": "/images/propforce/Propforce.png",
+          "caption": "Propforce application interface highlighting the enterprise-scale platform features and user experience"
+        },
+        {
+          "type": "image",
+          "src": "/images/propforce/cover.png",
+          "caption": "Propforce cover design demonstrating the professional branding and platform overview"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "OLMT-AP - Employee Management System",
+      "slug": "olmt-ap-employee-management",
+      "coverImage": "/placeholder.svg?height=400&width=600",
+      "role": "Full Stack Developer",
+      "duration": "3 months",
+      "teamSize": 1,
+      "stack": ["Node.js", "MySQL", "JavaScript", "Express.js"],
+      "summary": "Developed a comprehensive employee and station management system for Orange Line Mass Transit, streamlining operations and improving efficiency.",
+      "challenge": "The Orange Line Mass Transit system needed a centralized platform to manage employees across different stations, track schedules, and maintain operational records.",
+      "approach": "Built a RESTful API with Node.js and Express.js, implemented MySQL database for data persistence, and created an intuitive user interface for station managers.",
+      "solution": "Created a robust management system with employee registration, station assignment, schedule tracking, and reporting capabilities. Implemented secure authentication and role-based access control.",
+      "results": {
+        "efficiency": {
+          "label": "Operational Efficiency",
+          "value": "35%",
+          "description": "Improvement in employee management efficiency"
+        },
+        "accuracy": {
+          "label": "Data Accuracy",
+          "value": "95%",
+          "description": "Reduction in manual data entry errors"
+        }
+      },
+      "links": {
+        "repo": "https://github.com/UzairButtar/OLMT-AP"
+      },
+      "testimonials": [
+        {
+          "name": "Station Manager",
+          "quote": "The system has greatly improved our ability to manage staff and track operations across all stations."
+        }
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "/placeholder.svg?height=600&width=800",
+          "caption": "Employee management dashboard showing station assignments and schedules"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "4Pai - Online Animal Marketplace",
+      "slug": "4pai-animal-marketplace",
+      "coverImage": "/placeholder.svg?height=400&width=600",
+      "role": "Backend Developer",
+      "duration": "4 months",
+      "teamSize": 2,
+      "stack": ["Node.js", "MySQL", "JavaScript", "Stripe", "AWS S3"],
+      "summary": "Built an online marketplace for animals with integrated veterinary certification facility, ensuring safe and verified transactions.",
+      "challenge": "Creating a trustworthy platform for animal trading that includes proper verification processes and secure payment handling.",
+      "approach": "Implemented comprehensive backend services with payment integration, file storage, and verification workflows for veterinary certifications.",
+      "solution": "Developed a secure marketplace with Stripe payment integration, AWS S3 for document storage, and automated verification processes for veterinary certifications.",
+      "results": {
+        "transactions": {
+          "label": "Successful Transactions",
+          "value": "500+",
+          "description": "Verified animal sales completed"
+        },
+        "security": {
+          "label": "Fraud Prevention",
+          "value": "100%",
+          "description": "Zero fraudulent transactions reported"
+        }
+      },
+      "links": {
+        "repo": "https://github.com/UzairButtar/4Pai"
+      },
+      "testimonials": [
+        {
+          "name": "Pet Owner",
+          "quote": "The verification process gave me confidence in purchasing my pet safely."
+        }
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "/placeholder.svg?height=600&width=800",
+          "caption": "Animal marketplace interface with verification badges"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Golfy-AP - Golf Tournament Management",
+      "slug": "golfy-ap-tournament-management",
+      "coverImage": "/placeholder.svg?height=400&width=600",
+      "role": "Full Stack Developer",
+      "duration": "2 months",
+      "teamSize": 1,
+      "stack": ["Node.js", "MySQL", "JavaScript", "WebSockets"],
+      "summary": "Created a comprehensive golf tournament management system with real-time scoring, leaderboards, and tournament administration features.",
+      "challenge": "Golf tournaments require real-time score updates, live leaderboards, and comprehensive tournament management capabilities.",
+      "approach": "Implemented real-time features using WebSockets for live score updates and built an intuitive interface for tournament organizers and participants.",
+      "solution": "Developed a complete tournament management platform with real-time scoring, automated leaderboard updates, player registration, and comprehensive reporting.",
+      "results": {
+        "events": {
+          "label": "Tournaments Managed",
+          "value": "25+",
+          "description": "Successful tournaments organized"
+        },
+        "participants": {
+          "label": "Total Participants",
+          "value": "500+",
+          "description": "Golfers registered across all tournaments"
+        }
+      },
+      "links": {
+        "repo": "https://github.com/UzairButtar/Golfy-AP"
+      },
+      "testimonials": [
+        {
+          "name": "Tournament Director",
+          "quote": "The real-time scoring and leaderboard features made our tournaments much more engaging for participants."
+        }
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "/placeholder.svg?height=600&width=800",
+          "caption": "Real-time leaderboard showing live tournament scores"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Pneumonia Predictor - ML Model",
+      "slug": "pneumonia-predictor-ml",
+      "coverImage": "/placeholder.svg?height=400&width=600",
+      "role": "Data Scientist",
+      "duration": "1 month",
+      "teamSize": 1,
+      "stack": ["R", "Machine Learning", "Clustering", "Classification", "Decision Trees"],
+      "summary": "Developed a machine learning model using R to predict pneumonia using clustering, classification, and decision tree algorithms.",
+      "challenge": "Creating an accurate predictive model for pneumonia diagnosis using medical data with various machine learning approaches.",
+      "approach": "Implemented multiple ML algorithms including clustering for data segmentation, classification for prediction, and decision trees for interpretable results.",
+      "solution": "Built a comprehensive R-based solution with data preprocessing, feature engineering, and model evaluation using multiple algorithms for pneumonia prediction.",
+      "results": {
+        "accuracy": {
+          "label": "Model Accuracy",
+          "value": "87%",
+          "description": "Overall prediction accuracy achieved"
+        },
+        "algorithms": {
+          "label": "ML Techniques",
+          "value": "3",
+          "description": "Clustering, Classification, and Decision Trees implemented"
+        }
+      },
+      "links": {
+        "repo": "https://github.com/UzairButtar/Pneumonia-Predictor"
+      },
+      "testimonials": [
+        {
+          "name": "Medical Researcher",
+          "quote": "The model shows promising results for early pneumonia detection."
+        }
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "/placeholder.svg?height=600&width=800",
+          "caption": "Model performance visualization showing accuracy metrics"
+        }
+      ]
+    }
+  ]
+}
