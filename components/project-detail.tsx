@@ -25,6 +25,7 @@ interface ProjectDetailProps {
     solution: string
     results: Record<string, { label: string; value: string; description: string }>
     links: {
+      website?: string
       live?: string
       repo?: string
     }
@@ -80,9 +81,9 @@ export function ProjectDetail({ project }: ProjectDetailProps) {
                 ))}
               </div>
               <div className="mt-8 flex items-center gap-4">
-                {project.links.live && (
+                {(project.links.website || project.links.live) && (
                   <Button asChild>
-                    <Link href={project.links.live} target="_blank" rel="noopener noreferrer">
+                    <Link href={project.links.website || project.links.live!} target="_blank" rel="noopener noreferrer">
                       <ExternalLink className="mr-2 h-4 w-4" />
                       View Live
                     </Link>

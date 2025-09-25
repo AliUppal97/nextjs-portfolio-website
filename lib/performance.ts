@@ -3,14 +3,14 @@
 export function measureWebVitals() {
   if (typeof window === "undefined") return
 
-  // Core Web Vitals measurement
-  import("web-vitals").then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
-    getCLS(console.log)
-    getFID(console.log)
-    getFCP(console.log)
-    getLCP(console.log)
-    getTTFB(console.log)
-  })
+  // Core Web Vitals measurement - temporarily disabled due to API changes
+  // import("web-vitals").then(({ onCLS, onINP, onFCP, onLCP, onTTFB }) => {
+  //   onCLS(console.log)
+  //   onINP(console.log)
+  //   onFCP(console.log)
+  //   onLCP(console.log)
+  //   onTTFB(console.log)
+  // })
 }
 
 // Image loading optimization
@@ -78,7 +78,7 @@ export function checkPerformanceBudget() {
   const metrics = {
     FCP: 0, // Will be set by web-vitals
     LCP: 0, // Will be set by web-vitals
-    FID: 0, // Will be set by web-vitals
+    INP: 0, // Will be set by web-vitals
     CLS: 0, // Will be set by web-vitals
     TTFB: navigation.responseStart - navigation.requestStart,
     domContentLoaded: navigation.domContentLoadedEventEnd - navigation.domContentLoadedEventStart,

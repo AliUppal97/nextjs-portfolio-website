@@ -217,7 +217,7 @@ export function ResumeClient() {
                   <CardTitle>Certifications</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  {resumeData.certifications.map((cert, index) => (
+                  {(resumeData.certifications as any[]).map((cert, index) => (
                     <div key={index} className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
                       <div>
                         <h3 className="font-semibold">{cert.name}</h3>
